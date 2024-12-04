@@ -1,22 +1,15 @@
-//console.log("samina");
 //Functions
-function myFunction(){
-    let a=5;
-    myFunctionTwo();
-    return a;
-}
+//Alerts
+//alert("Blocked");
+//Objects
+ 
+let user = {
+    firstName:"John",
+    lastName:"Daniel",
+        age:45,
+    address:'kkkkkkk',    
 
 
-function myFunctionTwo(){
-   
-    console.log("Completed");
-}
+};
+console.log(user);
 
-function myFunctionThree(){
-    let a=5;
-    myFunctionTwo();
-    return a;
-}
-
-console.log(myFunction());
-console.log(myFunctionThree());
