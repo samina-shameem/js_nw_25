@@ -74,7 +74,8 @@ else{
     console.log("you are too young");
 }*/
 //Switch
-let fruits = "Banana";
+
+/*let fruits = "Banana";
 
 switch (fruits) {
     case "Apple":
@@ -85,4 +86,34 @@ switch (fruits) {
         break;
     default:
         console.log("no fruits");
-}
+}*/
+
+//Loops
+
+//for loop
+    
+
+    let count = 0;
+    
+    /*for(let i=0; i<=10; i++){
+        console.log(i);
+    }*/
+
+// while loop
+    
+   /*while(count <= 10){
+        
+           console.log(count);
+           count++;
+           
+   }*/
+         /* do{
+            console.log(count);
+            count++;
+
+          }while (count=== 10);
+        */
+
+//loops in Array
+
+
