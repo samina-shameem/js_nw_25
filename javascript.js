@@ -93,7 +93,7 @@ switch (fruits) {
 //for loop
     
 
-    let count = 0;
+   // let count = 0;
     
     /*for(let i=0; i<=10; i++){
         console.log(i);
@@ -115,5 +115,14 @@ switch (fruits) {
         */
 
 //loops in Array
+ 
+  let myArray =[ "Jo","Di","Ja"];
 
+ /*for(let i=0;i< myArray.length; i++){
+    document.write(myArray[i] + "<br>")
+ }
+*/
+for(let x of myArray){
+    document.write(x + "<br>");
+}
 
