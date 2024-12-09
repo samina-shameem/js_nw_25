@@ -116,13 +116,24 @@ switch (fruits) {
 
 //loops in Array
  
-  let myArray =[ "Jo","Di","Ja"];
+  //let myArray =[ "Jo","Di","Ja"];
 
  /*for(let i=0;i< myArray.length; i++){
     document.write(myArray[i] + "<br>")
  }
 */
-for(let x of myArray){
+/*for(let x of myArray){
     document.write(x + "<br>");
+}*/
+//Objects in for loops
+
+let myObj =  {
+    firstName:"John",
+    lastName:"Doe",
+    age: 34,
+
+};
+for(let x in myObj){
+    document.write(myObj [x] +"<br>");
 }
 
