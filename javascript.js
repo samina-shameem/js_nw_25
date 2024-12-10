@@ -1,3 +1,16 @@
+const button= document.getElementById("change-text-btn");//select the button element using its id
+
+const paragraph = document.getElementById("description");//select the paragraph element using id
+
+
+//add an event listener to the button
+button.addEventListener("click",function(){
+    paragraph.textContent="The text has been changed!";//change the text of the paragraph
+
+});
+
+
+
 //Functions
 //Alerts
 //alert("Blocked");
