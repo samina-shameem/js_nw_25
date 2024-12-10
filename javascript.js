@@ -127,7 +127,7 @@ switch (fruits) {
 }*/
 //Objects in for loops
 
-let myObj =  {
+/*let myObj =  {
     firstName:"John",
     lastName:"Doe",
     age: 34,
@@ -135,5 +135,18 @@ let myObj =  {
 };
 for(let x in myObj){
     document.write(myObj [x] +"<br>");
-}
+}*/
 
+//Events
+/*function onAlert(){
+    alert("you have clicked the button");
+
+}
+let btn =document.getElementById('btn');
+//most recommented way
+addEventListener("click", function() {
+    alert("Clicked");
+});
+
+
+//onAlert();*/
