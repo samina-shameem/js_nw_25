@@ -2,6 +2,8 @@ const button= document.getElementById("change-text-btn");//select the button ele
 
 const paragraph = document.getElementById("description");//select the paragraph element using id
 
+//console.log();
+
 
 //add an event listener to the button
 button.addEventListener("click",function(){
